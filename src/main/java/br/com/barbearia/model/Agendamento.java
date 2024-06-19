@@ -8,6 +8,14 @@ public class Agendamento {
     private String data;
     private String hora;
 
+    public Agendamento (int id, int idCliente, int idServico, String data, String hora){
+        this.id = id;
+        this.idCliente = idCliente;
+        this.idServico = idServico;
+        this.data = data;
+        this.hora = hora;
+    }
+
     public int getId() {
         return id;
     }

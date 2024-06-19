@@ -7,8 +7,6 @@ public class Cliente {
     private String telefone;
     private String email;
 
-    public Cliente() {
-    }
 
     public int getId() {
         return id;
@@ -40,15 +38,5 @@ public class Cliente {
 
     public void setEmail(String email) {
         this.email = email;
-    }
-
-    @Override
-    public String toString() {
-        return "Cliente{" +
-                "id=" + id +
-                ", nome='" + nome + '\'' +
-                ", telefone='" + telefone + '\'' +
-                ", email='" + email + '\'' +
-                '}';
     }
 }
